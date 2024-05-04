@@ -1,4 +1,5 @@
 const path = require('path');
+const { } = require('webpack-dev-server');
 
 module.exports = {
     entry: './src/index.js',
@@ -22,5 +23,13 @@ module.exports = {
             }
         ],
     },
-    
+    devServer: {
+        port: 80,
+    },
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    }
+
 }
