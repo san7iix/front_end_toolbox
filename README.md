@@ -1,7 +1,6 @@
 # Front End Toolbox
 
-Este proyecto es una solución a la prueba técnica fullstack de Toolbox. A continuación se detallan los pasos para correr el proyecto y ejecutar sus test
-
+Este proyecto es una solución a la prueba técnica fullstack de Toolbox. A continuación se detallan los pasos para ejecutar el proyecto.
 ## Requisitos
 
 - Node.js 16
